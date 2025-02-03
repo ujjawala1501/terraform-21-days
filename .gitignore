@@ -1,0 +1,6 @@
+#this file will let git know to NOT commit the files of below extensions to repo even by mistake 
+.terraform
+.terraform/*
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
